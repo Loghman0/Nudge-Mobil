@@ -1,0 +1,75 @@
+[
+  {
+    "repo": "anthropics/skills",
+    "path": "skills/frontend-design",
+    "ref": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+    "stars": 189498,
+    "files": [
+      {
+        "name": "LICENSE.txt",
+        "type": "file"
+      },
+      {
+        "name": "SKILL.md",
+        "type": "file"
+      }
+    ],
+    "installedAt": "C:/Users/User/.codex/skills/frontend-design",
+    "entrySha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8",
+    "autoDiscovery": "next turn"
+  },
+  {
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/react-native-skills",
+    "ref": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+    "stars": 33721,
+    "files": [
+      {
+        "name": "AGENTS.md",
+        "type": "file"
+      },
+      {
+        "name": "README.md",
+        "type": "file"
+      },
+      {
+        "name": "SKILL.md",
+        "type": "file"
+      },
+      {
+        "name": "metadata.json",
+        "type": "file"
+      },
+      {
+        "name": "rules",
+        "type": "dir"
+      }
+    ],
+    "installedAt": "C:/Users/User/.codex/skills/vercel-react-native-skills",
+    "entrySha256": "aff91057282facb41ddc8873a482e19cfb928056fc32b350e1b084b16cb58dc2",
+    "autoDiscovery": "next turn"
+  },
+  {
+    "repo": "expo/skills",
+    "path": "plugins/expo/skills/expo-design-system",
+    "ref": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+    "stars": 4094,
+    "files": [
+      {
+        "name": "SKILL.md",
+        "type": "file"
+      },
+      {
+        "name": "agents",
+        "type": "dir"
+      },
+      {
+        "name": "references",
+        "type": "dir"
+      }
+    ],
+    "installedAt": "C:/Users/User/.codex/skills/expo-design-system",
+    "entrySha256": "10182f288264887e35f051634a15553974a8167be14da4918853d2ccf97c8b20",
+    "autoDiscovery": "next turn"
+  }
+]

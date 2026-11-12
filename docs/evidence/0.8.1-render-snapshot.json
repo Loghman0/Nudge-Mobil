@@ -1,0 +1,11 @@
+{
+  "scope": "Aggregate Android counters during manual Nudge flow, not a controlled benchmark or FPS guarantee",
+  "frames": 2158,
+  "jankyFrames": 78,
+  "jankPercent": 3.61,
+  "p50ms": 8,
+  "p95ms": 17,
+  "p99ms": 69,
+  "pssKiB": 79374,
+  "rssKiB": 192908
+}

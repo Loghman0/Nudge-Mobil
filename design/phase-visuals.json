@@ -1,0 +1,106 @@
+[
+  {
+    "phase": 2,
+    "title": "One native app, five places",
+    "subtitle": "Proposed adaptation map · source-derived parity, not an app screenshot",
+    "items": [
+      {"title": "Today → About you → Decide", "body": "Answer a question, inspect the supporting answer, then use relevant evidence in a comparison."},
+      {"title": "Tools + Account", "body": "Earlier learning, circles and outcome patterns stay available. Privacy, export and deletion remain easy to find."},
+      {"title": "Local draft ≠ saved answer", "body": "Keep drafts through poor networks; confirm account writes only after the server. Never silently replay a stale privacy generation."},
+      {"title": "Permissions after a reason", "body": "Share on request. No first-launch permission wall. Native push is a separate integration and device-verification gate."}
+    ]
+  },
+  {
+    "phase": 3,
+    "title": "Make the evidence understandable",
+    "subtitle": "Research synthesis · expected benefits are hypotheses, not measured retention",
+    "items": [
+      {"title": "Easy to answer, easy to skip", "body": "Large equal answer targets, visible neutral/skip choices, and context before any unfamiliar comparison."},
+      {"title": "One task, details on request", "body": "Keep the question prominent; open meanings, criteria and source answers through labeled controls."},
+      {"title": "No personality from one tap", "body": "A surprising answer can mean humor, context or time pressure. Show a limited reflection and let the person correct it."},
+      {"title": "Curiosity without pressure", "body": "Question variety and a useful ending; no guilt streaks, fake social proof, random unlocks or forced disclosure."}
+    ]
+  },
+  {
+    "phase": 4,
+    "title": "Test understanding, not just attraction",
+    "subtitle": "Proposed six-participant study · no participant findings claimed",
+    "items": [
+      {"title": "Three provisional jobs", "body": "Try a useful preview. Compare a real choice without guessing. Correct what Nudge has learned."},
+      {"title": "Tasks with failure paths", "body": "Change topic, explain a reflection's source, compare unfamiliar terms, recover a lost connection, find export and deletion."},
+      {"title": "Include access needs", "body": "Recruit across Android sizes, large-text use and assistive technology. Observe task behavior separately from interpretation."},
+      {"title": "Measure honest value", "body": "Completion, errors, source comprehension, uncertainty and perceived pressure. Voluntary Finish is a successful exit."}
+    ]
+  },
+  {
+    "phase": 5,
+    "title": "Three structures, one Nudge identity",
+    "subtitle": "Design proposals · Clear question selected under the owner's approval to proceed",
+    "items": [
+      {"title": "A · Clear question — selected", "body": "One prompt, generous answer rows, a small evidence fold. Best fit for first use and one-handed answering."},
+      {"title": "B · Field notes", "body": "Chronological answers, reflections and revisions. Strong audit trail; risks feeling dense before Nudge knows enough."},
+      {"title": "C · Connections", "body": "Pair an answer with the reflection and decision context it supports. Strong explanation; avoid an empty decorative graph."},
+      {"title": "Keep the mark and blue", "body": "Same Nudge logo and palette. Borrow revision clarity and source links without cream/terracotta, acid accents or generic dashboards."}
+    ],
+    "directions": [
+      {"name": "Clear question", "recommended": true, "palette": ["#edf2f7", "#f9fbfd", "#253348", "#536479", "#355db9", "#e1eaf4"], "layout": "One question, full-width answer rows, clear Continue and optional evidence fold."},
+      {"name": "Field notes", "recommended": false, "palette": ["#f9fbfd", "#edf2f7", "#253348", "#536479", "#355db9", "#becbda"], "layout": "Dated question-answer-reflection blocks with visible corrections and readable controls."},
+      {"name": "Connections", "recommended": false, "palette": ["#edf2f7", "#f9fbfd", "#253348", "#355db9", "#e1eaf4", "#a6bff0"], "layout": "Paired source and applicability panels, never a personality score or decorative knowledge graph."}
+    ]
+  },
+  {
+    "phase": 6,
+    "title": "A checked palette, meaningful controls",
+    "subtitle": "Calculated from current source colors · rendered accessibility still needs device checks",
+    "items": [
+      {"title": "Light and dark checked separately", "body": "Primary text: 11.33:1 light, 13.75:1 dark on screen. Secondary text: 5.38:1 and 9.51:1."},
+      {"title": "Reference → role → component", "body": "Keep the exact blue brand, document OKLCH equivalents, and make components use semantic tokens."},
+      {"title": "Control boundaries matter", "body": "Faint separator colors are decorative. Inputs use controlLine; selected answers add a checkmark and announced state."},
+      {"title": "Readable and reachable", "body": "16-unit base body size with system scaling, 48dp Android touch targets and at least 8dp separation. No color-only status."}
+    ]
+  },
+  {
+    "phase": 7,
+    "title": "A question before a wall of text",
+    "subtitle": "Screen and copy specification · proposals, not rendered app screens",
+    "items": [
+      {"title": "Today", "body": "Question → full answer rows → Skip / Continue. Change topic is visible. After saving: Answer another or Finish for now."},
+      {"title": "Three real action buttons", "body": "Have a decision in mind? · Open your journal · Question preferences. Full targets and native pressed states."},
+      {"title": "Decide in clear steps", "body": "Options → only the missing context → review → result with evidence and unknowns. Unfamiliar terms trigger clarification."},
+      {"title": "Every state has a next action", "body": "Empty, loading, error, offline and long-content behavior specified. Saved-but-refresh-failed never becomes a duplicate save."}
+    ]
+  },
+  {
+    "phase": 8,
+    "title": "Feedback that explains what changed",
+    "subtitle": "Motion targets · timing and frame rates are not yet measured",
+    "items": [
+      {"title": "Press first, confirm honestly", "body": "100ms pressed-feedback target. Pending appears immediately; Saved waits for the server."},
+      {"title": "The evidence fold", "body": "Open the exact source answer behind a reflection. A small 180ms opacity transition supports meaning, not decoration."},
+      {"title": "Sparse haptics", "body": "Optional selection tick and confirmed-save feedback. No vibration on scroll and no error shame."},
+      {"title": "Reduced motion everywhere", "body": "Remove movement, use a short fade or immediate state. Back, Close and visible action menus replace gesture-only paths."}
+    ]
+  },
+  {
+    "phase": 9,
+    "title": "Known checks and open proof",
+    "subtitle": "Audit boundary · a source review is not a perfect-app certification",
+    "items": [
+      {"title": "Known from source and calculation", "body": "Shared native tokens, selected-state primitives, separate topic Apply, privacy-aware contracts and checked opaque color pairs."},
+      {"title": "Device checks still required", "body": "TalkBack, largest text, small/landscape/tablet layout, touch gaps, focus return and reduced-motion behavior."},
+      {"title": "Three priority fixes", "body": "Complete real route parity. Validate failure recovery in the latest APK. Test whether people understand reflection evidence and limits."},
+      {"title": "Keep claims bounded", "body": "No invented participant findings, measured speed, native push delivery or public-release readiness."}
+    ]
+  },
+  {
+    "phase": 10,
+    "title": "Build from explicit contracts",
+    "subtitle": "Developer handoff · native parity and evidence gates, not a second product",
+    "items": [
+      {"title": "Screen → component → API", "body": "Each screen maps to real discovery, decision, account or tools contracts and complete UI states."},
+      {"title": "Identity stays pinned", "body": "Keep user, privacy generation, revision and intent body through pending writes. Review again after conflicts; never rebase silently."},
+      {"title": "Responsive by behavior", "body": "Wrap real content, preserve font scaling and logical RTL spacing, virtualize long lists and keep actions above safe areas."},
+      {"title": "Evidence before delivery claims", "body": "Rebuild and install the latest APK, exercise real journeys, capture screenshots and record remaining AI, push and store gates."}
+    ]
+  }
+]

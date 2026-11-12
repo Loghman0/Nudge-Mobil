@@ -1,0 +1,50 @@
+{
+  "notice": "Generated from the existing web source. Run npm run sync:core after reviewed web changes. Do not edit these copies.",
+  "files": [
+    {
+      "source": "src/lib/discovery/types.ts",
+      "target": "src/core/types.ts",
+      "sha256": "0279dfa3b3bb30264343728be2924d773e74def6b7fff70f66013ea75ad10048"
+    },
+    {
+      "source": "src/lib/discovery/mood.ts",
+      "target": "src/core/mood.ts",
+      "sha256": "10a5e33e3f83bba12b84cca59ec79ae2694c614439ca1031def67195c05e70ab"
+    },
+    {
+      "source": "src/lib/discovery/contracts.ts",
+      "target": "src/core/contracts.ts",
+      "sha256": "adffa53ce9337576ff6e847750e7d63a3f4ef37b27f3602681fa6a13ad5c6ab9"
+    },
+    {
+      "source": "src/lib/discovery/taxonomy.ts",
+      "target": "src/core/taxonomy.ts",
+      "sha256": "913604eb9b653e2802af9471374a3af53b0d533cbc359507a9d7395279464038"
+    },
+    {
+      "source": "src/lib/discovery/validation.ts",
+      "target": "src/core/validation.ts",
+      "sha256": "c82ccb78cb88b9dd3b32d7a75c8c0ff479cdd4d35b7d4ce4525c5cf36bd36ab9"
+    },
+    {
+      "source": "src/lib/discovery/observation-core.ts",
+      "target": "src/core/observation-core.ts",
+      "sha256": "31f4100a93e60adc6b2e011ebe4d818ff4ecc3cac89442e9cdf00ee393540aba"
+    },
+    {
+      "source": "src/lib/services/comparison-criteria.ts",
+      "target": "src/core/comparison-criteria.ts",
+      "sha256": "318040b67b5424e2333db6a48cb0e7cf3b68bc9f288efa884e1b746a64628fae"
+    },
+    {
+      "source": "src/lib/services/reminder-local-time.ts",
+      "target": "src/core/reminder-local-time.ts",
+      "sha256": "a8fb683485fc6fa606823ce5180539ec9b201af4c3690238dc8d944da5859867"
+    },
+    {
+      "source": "data/discovery-preview.json",
+      "target": "src/core/questions.json",
+      "sha256": "88a1f16e22b86dbf18b23097a15c07bdf569e8c28190ac928ad01b197b32acea"
+    }
+  ]
+}

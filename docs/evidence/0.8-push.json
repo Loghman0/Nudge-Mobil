@@ -1,0 +1,227 @@
+{
+  "artifact": {
+    "apk": "mobile/dist/nudge-preview-0.8.0-universal.apk",
+    "bytes": 41660496,
+    "sha256": "47e5e88914e3f6454fac4a25c1686159e0a2dff2daa4898adc16fde3f0830117",
+    "embeddedHermesBytes": 2459496,
+    "nativeArm64Libraries": 18,
+    "elfLoadSegmentsChecked": 109,
+    "elfLoadSegments16KB": true,
+    "privateConfigurationFiles": false,
+    "privateEnvironmentValueFound": false,
+    "fixtureSessionValuesChecked": 2,
+    "privateFixtureValueFound": false,
+    "deviceRuntimeVerified": false
+  },
+  "installed": {
+    "installedHashMatches": true,
+    "sha256": "47e5e88914e3f6454fac4a25c1686159e0a2dff2daa4898adc16fde3f0830117",
+    "device": "emulator-5554",
+    "realGoogleVerified": false
+  },
+  "processDeath": {
+    "processAbsentBeforeNotificationTap": true,
+    "forceStopUsed": false
+  },
+  "consent": {
+    "retrospectiveFromObservedToolResults": true,
+    "observations": [
+      {
+        "stage": "fresh_anonymous_debug_startup_before_fixture_import",
+        "fcmTokenCached": false
+      },
+      {
+        "stage": "after_explicit_android_permission_denial",
+        "fcmTokenCached": false,
+        "serverActiveDevice": false
+      }
+    ],
+    "credentialsPrinted": false
+  },
+  "hosted": {
+    "checkedAt": "2026-11-10T15:27:15.004Z",
+    "checks": [
+      "user bearer cannot invoke worker",
+      "configured sender and owner-safe absent device",
+      "confirmed disable tombstone",
+      "same disable retry idempotent",
+      "older device intent rejected",
+      "caller identity injection rejected",
+      "invalid account rejected",
+      "protected live worker accepts scheduler secret"
+    ],
+    "worker": {
+      "ok": true,
+      "enqueued": 0,
+      "nativeTransport": true,
+      "claimed": 0,
+      "accepted": 0,
+      "retried": 0,
+      "gone": 0,
+      "failed": 0,
+      "expired": 0,
+      "acknowledgementsFailed": 0
+    },
+    "realDeviceDeliveryVerified": false,
+    "credentialsPrinted": false
+  },
+  "deviceEvents": [
+    {
+      "stage": "inspect",
+      "devices": [
+        {
+          "enabled": false,
+          "timeZone": "UTC",
+          "quietStart": 1320,
+          "quietEnd": 480,
+          "epoch": 2,
+          "hasToken": false
+        }
+      ],
+      "at": "2026-11-10T15:40:41.131Z"
+    },
+    {
+      "stage": "inspect",
+      "devices": [
+        {
+          "enabled": false,
+          "timeZone": "UTC",
+          "quietStart": 1320,
+          "quietEnd": 480,
+          "epoch": 2,
+          "hasToken": false
+        }
+      ],
+      "at": "2026-11-10T15:42:11.831Z"
+    },
+    {
+      "stage": "inspect",
+      "devices": [
+        {
+          "enabled": false,
+          "timeZone": "UTC",
+          "quietStart": 1320,
+          "quietEnd": 480,
+          "epoch": 2,
+          "hasToken": false
+        }
+      ],
+      "at": "2026-11-10T17:49:28.200Z"
+    },
+    {
+      "stage": "inspect",
+      "devices": [
+        {
+          "enabled": false,
+          "timeZone": "UTC",
+          "quietStart": 1320,
+          "quietEnd": 480,
+          "epoch": 2,
+          "hasToken": false
+        }
+      ],
+      "at": "2026-11-10T17:50:29.894Z"
+    },
+    {
+      "stage": "inspect",
+      "devices": [
+        {
+          "enabled": false,
+          "timeZone": "UTC",
+          "quietStart": 1320,
+          "quietEnd": 480,
+          "epoch": 2,
+          "hasToken": false
+        },
+        {
+          "enabled": true,
+          "timeZone": "Asia/Baku",
+          "quietStart": 0,
+          "quietEnd": 0,
+          "epoch": 1,
+          "hasToken": true
+        }
+      ],
+      "at": "2026-11-10T17:51:14.451Z"
+    },
+    {
+      "stage": "seed",
+      "disposableDecisionReady": true,
+      "at": "2026-11-10T17:51:32.221Z"
+    },
+    {
+      "stage": "deliver",
+      "result": {
+        "ok": true,
+        "enqueued": 1,
+        "nativeTransport": true,
+        "claimed": 1,
+        "accepted": 1,
+        "retried": 0,
+        "gone": 0,
+        "failed": 0,
+        "expired": 0,
+        "acknowledgementsFailed": 0
+      },
+      "at": "2026-11-10T17:53:02.413Z"
+    },
+    {
+      "stage": "read-state",
+      "count": 1,
+      "allRead": false,
+      "at": "2026-11-10T17:54:07.587Z"
+    },
+    {
+      "stage": "inspect",
+      "devices": [
+        {
+          "enabled": false,
+          "timeZone": "UTC",
+          "quietStart": 1320,
+          "quietEnd": 480,
+          "epoch": 2,
+          "hasToken": false
+        },
+        {
+          "enabled": false,
+          "timeZone": "Asia/Baku",
+          "quietStart": 0,
+          "quietEnd": 0,
+          "epoch": 2,
+          "hasToken": false
+        }
+      ],
+      "at": "2026-11-10T17:57:24.392Z"
+    },
+    {
+      "stage": "seed-next",
+      "reminderVersion": 2,
+      "at": "2026-11-10T17:58:09.489Z"
+    },
+    {
+      "stage": "deliver",
+      "result": {
+        "ok": true,
+        "enqueued": 1,
+        "nativeTransport": true,
+        "claimed": 0,
+        "accepted": 0,
+        "retried": 0,
+        "gone": 0,
+        "failed": 0,
+        "expired": 0,
+        "acknowledgementsFailed": 0
+      },
+      "at": "2026-11-10T17:58:14.595Z"
+    }
+  ],
+  "scheduler": {
+    "job": "nudge-native-push",
+    "schedule": "*/5 * * * *",
+    "active": true,
+    "observedHttpStatus": 200,
+    "workerOk": true,
+    "source": "native-push-scheduler-verified.png"
+  },
+  "scope": "Bounded emulator/source/HTTPS evidence; not real Google, physical-phone or Play acceptance"
+}

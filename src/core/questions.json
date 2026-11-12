@@ -1,0 +1,601 @@
+[
+  {
+    "id": "rest-break",
+    "version": 2,
+    "familyId": "rest-break",
+    "domain": "rest",
+    "subdomain": "breaks",
+    "prompt": "After a draining day, what do you usually end up doing first?",
+    "format": "choice",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Put on something familiar and keep to myself."
+      },
+      {
+        "id": "b",
+        "label": "Reach out to someone I feel comfortable with."
+      },
+      {
+        "id": "c",
+        "label": "Do something with my hands to take my mind off the day."
+      },
+      {
+        "id": "d",
+        "label": "Go outside or move around for a bit."
+      },
+      {
+        "id": "e",
+        "label": "Keep scrolling, even when I meant to rest."
+      }
+    ],
+    "purpose": "evidence",
+    "depth": 0,
+    "sensitivity": "ordinary",
+    "estimatedSeconds": 20,
+    "status": "published",
+    "source": "starter",
+    "preview": true,
+    "allowedResponses": [
+      "depends",
+      "neither",
+      "skip"
+    ],
+    "review": {
+      "type": "authored_seed",
+      "version": 2
+    },
+    "signals": [
+      {
+        "optionId": "a",
+        "attributeKey": "rest.recovery.first",
+        "value": "familiar_alone",
+        "statement": "You said you usually turn to something familiar on your own after a draining day.",
+        "scope": "after a draining day",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "b",
+        "attributeKey": "rest.recovery.first",
+        "value": "familiar_company",
+        "statement": "You said you usually reach out to someone you feel comfortable with after a draining day.",
+        "scope": "after a draining day",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "c",
+        "attributeKey": "rest.recovery.first",
+        "value": "hands_on",
+        "statement": "You said a hands-on activity is often your first move after a draining day.",
+        "scope": "after a draining day",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "d",
+        "attributeKey": "rest.recovery.first",
+        "value": "movement",
+        "statement": "You said you often head outside or move around after a draining day.",
+        "scope": "after a draining day",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "e",
+        "attributeKey": "rest.recovery.first",
+        "value": "scrolling",
+        "statement": "You said you sometimes end up scrolling after a draining day, even when you meant to rest.",
+        "scope": "after a draining day",
+        "kind": "preference",
+        "strength": "direct"
+      }
+    ]
+  },
+  {
+    "id": "time-free-day",
+    "version": 2,
+    "familyId": "time-free-day",
+    "domain": "time",
+    "subdomain": "planning",
+    "prompt": "You have a day with no plans. What are you most likely to do?",
+    "format": "choice",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Choose one thing, then leave the rest open."
+      },
+      {
+        "id": "b",
+        "label": "Make a plan so the day doesn't slip away."
+      },
+      {
+        "id": "c",
+        "label": "Wait and see what I feel like doing."
+      },
+      {
+        "id": "d",
+        "label": "Catch up on things I've been putting off."
+      },
+      {
+        "id": "e",
+        "label": "Let someone else suggest something."
+      }
+    ],
+    "purpose": "evidence",
+    "depth": 0,
+    "sensitivity": "ordinary",
+    "estimatedSeconds": 20,
+    "status": "published",
+    "source": "starter",
+    "preview": true,
+    "allowedResponses": [
+      "depends",
+      "neither",
+      "skip"
+    ],
+    "review": {
+      "type": "authored_seed",
+      "version": 2
+    },
+    "signals": [
+      {
+        "optionId": "a",
+        "attributeKey": "time.unplanned_day.approach",
+        "value": "one_anchor",
+        "statement": "You chose one activity with room to decide the rest of an unplanned day.",
+        "scope": "a day with no plans",
+        "kind": "preference",
+        "strength": "direct",
+        "criterion": {
+          "label": "Flexibility",
+          "decisionDomains": [
+            "travel",
+            "lifestyle",
+            "hobbies"
+          ]
+        }
+      },
+      {
+        "optionId": "b",
+        "attributeKey": "time.unplanned_day.approach",
+        "value": "several_plans",
+        "statement": "You chose to give an unplanned day some structure.",
+        "scope": "a day with no plans",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "c",
+        "attributeKey": "time.unplanned_day.approach",
+        "value": "spontaneous",
+        "statement": "You chose to wait and see what feels right on an unplanned day.",
+        "scope": "a day with no plans",
+        "kind": "preference",
+        "strength": "direct",
+        "criterion": {
+          "label": "Flexibility",
+          "decisionDomains": [
+            "travel",
+            "lifestyle",
+            "hobbies"
+          ]
+        }
+      },
+      {
+        "optionId": "d",
+        "attributeKey": "time.unplanned_day.approach",
+        "value": "catch_up",
+        "statement": "You chose catching up on postponed tasks for a day without plans.",
+        "scope": "a day with no plans",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "e",
+        "attributeKey": "time.unplanned_day.approach",
+        "value": "others_suggest",
+        "statement": "You chose to let someone else suggest what to do on an unplanned day.",
+        "scope": "a day with no plans",
+        "kind": "preference",
+        "strength": "direct"
+      }
+    ]
+  },
+  {
+    "id": "learning-puzzle",
+    "version": 2,
+    "familyId": "learning-puzzle",
+    "domain": "learning",
+    "subdomain": "starting",
+    "prompt": "Think of the last time a simple task wouldn't work. What did you do next?",
+    "format": "choice",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Kept trying different things until something worked."
+      },
+      {
+        "id": "b",
+        "label": "Looked up instructions or an example."
+      },
+      {
+        "id": "c",
+        "label": "Asked someone to help me work it out."
+      },
+      {
+        "id": "d",
+        "label": "Got frustrated and left it for later."
+      },
+      {
+        "id": "e",
+        "label": "Tried a shortcut, even if the result would be a bit messy."
+      }
+    ],
+    "purpose": "evidence",
+    "depth": 0,
+    "sensitivity": "ordinary",
+    "estimatedSeconds": 20,
+    "status": "published",
+    "source": "starter",
+    "preview": true,
+    "allowedResponses": [
+      "depends",
+      "neither",
+      "skip"
+    ],
+    "review": {
+      "type": "authored_seed",
+      "version": 2
+    },
+    "signals": [
+      {
+        "optionId": "a",
+        "attributeKey": "learning.stuck.response",
+        "value": "experimented",
+        "statement": "You recalled trying different approaches when a simple task would not work.",
+        "scope": "the last simple task that would not work",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "b",
+        "attributeKey": "learning.stuck.response",
+        "value": "looked_up",
+        "statement": "You recalled looking up instructions or an example when a task would not work.",
+        "scope": "the last simple task that would not work",
+        "kind": "preference",
+        "strength": "direct",
+        "criterion": {
+          "label": "Worked examples",
+          "decisionDomains": [
+            "learning"
+          ]
+        }
+      },
+      {
+        "optionId": "c",
+        "attributeKey": "learning.stuck.response",
+        "value": "asked_help",
+        "statement": "You recalled asking someone for help when a task would not work.",
+        "scope": "the last simple task that would not work",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "d",
+        "attributeKey": "learning.stuck.response",
+        "value": "stepped_away",
+        "statement": "You recalled getting frustrated and leaving that task for later.",
+        "scope": "the last simple task that would not work",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "e",
+        "attributeKey": "learning.stuck.response",
+        "value": "shortcut",
+        "statement": "You recalled trying a shortcut, accepting a messier result for that task.",
+        "scope": "the last simple task that would not work",
+        "kind": "preference",
+        "strength": "direct"
+      }
+    ]
+  },
+  {
+    "id": "food-snack",
+    "version": 2,
+    "familyId": "food-snack",
+    "domain": "food",
+    "subdomain": "novelty",
+    "prompt": "You're choosing something to eat, and a new option looks good. What tends to decide it?",
+    "format": "choice",
+    "choices": [
+      {
+        "id": "a",
+        "label": "I stick with a favorite; I know I'll enjoy it."
+      },
+      {
+        "id": "b",
+        "label": "I try the new thing; I'm curious how it tastes."
+      },
+      {
+        "id": "c",
+        "label": "The price matters more than whether it's familiar."
+      },
+      {
+        "id": "d",
+        "label": "I go with what's easy; I don't want to think about it."
+      },
+      {
+        "id": "e",
+        "label": "My appetite that day matters more than either."
+      }
+    ],
+    "purpose": "evidence",
+    "depth": 0,
+    "sensitivity": "ordinary",
+    "estimatedSeconds": 20,
+    "status": "published",
+    "source": "starter",
+    "preview": true,
+    "allowedResponses": [
+      "depends",
+      "neither",
+      "skip"
+    ],
+    "review": {
+      "type": "authored_seed",
+      "version": 2
+    },
+    "signals": [
+      {
+        "optionId": "a",
+        "attributeKey": "food.choice.priority",
+        "value": "familiar",
+        "statement": "You said a familiar favorite tends to win when a new food option also looks appealing.",
+        "scope": "choosing food when a new option looks appealing",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "b",
+        "attributeKey": "food.choice.priority",
+        "value": "curious",
+        "statement": "You said curiosity tends to draw you toward an appealing new food option.",
+        "scope": "choosing food when a new option looks appealing",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "c",
+        "attributeKey": "food.choice.priority",
+        "value": "price",
+        "statement": "You said price matters more than familiarity in this food choice.",
+        "scope": "choosing food when a new option looks appealing",
+        "kind": "preference",
+        "strength": "direct",
+        "criterion": {
+          "label": "Price",
+          "decisionDomains": [
+            "food"
+          ]
+        }
+      },
+      {
+        "optionId": "d",
+        "attributeKey": "food.choice.priority",
+        "value": "ease",
+        "statement": "You said an easy choice matters when you do not want to think much about food.",
+        "scope": "choosing food when a new option looks appealing",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "e",
+        "attributeKey": "food.choice.priority",
+        "value": "appetite",
+        "statement": "You said your appetite that day matters more than familiarity or novelty.",
+        "scope": "choosing food when a new option looks appealing",
+        "kind": "preference",
+        "strength": "direct"
+      }
+    ]
+  },
+  {
+    "id": "play-humor",
+    "version": 2,
+    "familyId": "play-humor",
+    "domain": "play",
+    "subdomain": "humor",
+    "prompt": "Think of something that made you laugh recently. What was it closest to?",
+    "format": "choice",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Something ridiculously unexpected."
+      },
+      {
+        "id": "b",
+        "label": "A sharp or sarcastic comment."
+      },
+      {
+        "id": "c",
+        "label": "Someone laughing at their own mistake."
+      },
+      {
+        "id": "d",
+        "label": "A small everyday thing we all recognize."
+      },
+      {
+        "id": "e",
+        "label": "An inside joke that wouldn't make sense to anyone else."
+      }
+    ],
+    "purpose": "evidence",
+    "depth": 0,
+    "sensitivity": "ordinary",
+    "estimatedSeconds": 20,
+    "status": "published",
+    "source": "starter",
+    "preview": true,
+    "allowedResponses": [
+      "depends",
+      "neither",
+      "skip"
+    ],
+    "review": {
+      "type": "authored_seed",
+      "version": 2
+    },
+    "signals": [
+      {
+        "optionId": "a",
+        "attributeKey": "play.recent_humor",
+        "value": "absurd",
+        "statement": "You recalled laughing at something ridiculously unexpected.",
+        "scope": "something that made you laugh recently",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "b",
+        "attributeKey": "play.recent_humor",
+        "value": "sarcastic",
+        "statement": "You recalled laughing at a sharp or sarcastic comment.",
+        "scope": "something that made you laugh recently",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "c",
+        "attributeKey": "play.recent_humor",
+        "value": "own_mistake",
+        "statement": "You recalled laughing with someone about their own mistake.",
+        "scope": "something that made you laugh recently",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "d",
+        "attributeKey": "play.recent_humor",
+        "value": "everyday",
+        "statement": "You recalled laughing at a recognizable everyday moment.",
+        "scope": "something that made you laugh recently",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "e",
+        "attributeKey": "play.recent_humor",
+        "value": "inside_joke",
+        "statement": "You recalled an inside joke that depended on shared context.",
+        "scope": "something that made you laugh recently",
+        "kind": "preference",
+        "strength": "direct"
+      }
+    ]
+  },
+  {
+    "id": "creativity-postcard",
+    "version": 2,
+    "familyId": "creativity-postcard",
+    "domain": "creativity",
+    "subdomain": "starting",
+    "prompt": "You want to make something but aren't sure where to start. What do you tend to do?",
+    "format": "choice",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Make a rough first attempt and see where it goes."
+      },
+      {
+        "id": "b",
+        "label": "Start with one detail I already have in mind."
+      },
+      {
+        "id": "c",
+        "label": "Find an example I can adapt."
+      },
+      {
+        "id": "d",
+        "label": "Work out what I want to say before I begin."
+      },
+      {
+        "id": "e",
+        "label": "Put it off; choosing where to start can be the hardest part."
+      }
+    ],
+    "purpose": "evidence",
+    "depth": 0,
+    "sensitivity": "ordinary",
+    "estimatedSeconds": 20,
+    "status": "published",
+    "source": "starter",
+    "preview": true,
+    "allowedResponses": [
+      "depends",
+      "neither",
+      "skip"
+    ],
+    "review": {
+      "type": "authored_seed",
+      "version": 2
+    },
+    "signals": [
+      {
+        "optionId": "a",
+        "attributeKey": "creativity.starting.approach",
+        "value": "rough_attempt",
+        "statement": "You said you tend to start a creative task with a rough first attempt.",
+        "scope": "starting something creative",
+        "kind": "preference",
+        "strength": "direct",
+        "criterion": {
+          "label": "Room for a rough first attempt",
+          "decisionDomains": [
+            "hobbies",
+            "learning"
+          ]
+        }
+      },
+      {
+        "optionId": "b",
+        "attributeKey": "creativity.starting.approach",
+        "value": "one_detail",
+        "statement": "You said you tend to start a creative task with one detail already in mind.",
+        "scope": "starting something creative",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "c",
+        "attributeKey": "creativity.starting.approach",
+        "value": "example",
+        "statement": "You said you tend to look for an example to adapt when starting a creative task.",
+        "scope": "starting something creative",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "d",
+        "attributeKey": "creativity.starting.approach",
+        "value": "message",
+        "statement": "You said you tend to work out your message before beginning a creative task.",
+        "scope": "starting something creative",
+        "kind": "preference",
+        "strength": "direct"
+      },
+      {
+        "optionId": "e",
+        "attributeKey": "creativity.starting.approach",
+        "value": "put_off",
+        "statement": "You said you sometimes put off a creative task because choosing where to start is difficult.",
+        "scope": "starting something creative",
+        "kind": "preference",
+        "strength": "direct"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<rect width="1200" height="850" fill="#edf2f7"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#253348">
+<text x="60" y="68" font-size="18" fill="#355db9">NUDGE · PHASE 2</text>
+<text x="60" y="118" font-size="38" font-weight="700">One clear next step.</text>
+<text x="60" y="154" font-size="20" fill="#536479">Proposed native navigation · same account and evidence across web and Android</text>
+<rect x="60" y="197" width="1080" height="122" rx="20" fill="#f9fbfd" stroke="#becbda"/>
+<text x="86" y="234" font-size="20" font-weight="600">First visit</text>
+<text x="86" y="279" font-size="22">Six questions</text><text x="293" y="279" font-size="25" fill="#355db9">→</text>
+<text x="345" y="279" font-size="22">Reflections</text><text x="520" y="279" font-size="25" fill="#355db9">→</text>
+<text x="573" y="279" font-size="22">Google sign-in</text><text x="786" y="279" font-size="25" fill="#355db9">→</text>
+<text x="838" y="279" font-size="22">Review and save</text>
+<g fill="none" stroke="#becbda" stroke-width="2"><path d="M600 319V355M160 355H1040M160 355V385M380 355V385M600 355V385M820 355V385M1040 355V385"/></g>
+<g fill="#f9fbfd" stroke="#becbda"><rect x="60" y="385" width="200" height="222" rx="18"/><rect x="280" y="385" width="200" height="222" rx="18"/><rect x="500" y="385" width="200" height="222" rx="18"/><rect x="720" y="385" width="200" height="222" rx="18"/><rect x="940" y="385" width="200" height="222" rx="18"/></g>
+<g font-size="24" font-weight="600" fill="#355db9"><text x="84" y="432">Today</text><text x="304" y="432">About you</text><text x="524" y="432">Decide</text><text x="744" y="432">Tools</text><text x="964" y="432">Account</text></g>
+<g font-size="18"><text x="84" y="480">Daily question</text><text x="84" y="516">Topic and pace</text><text x="84" y="552">Optional more</text>
+<text x="304" y="480">Reflections</text><text x="304" y="516">Source answers</text><text x="304" y="552">Edit and exclude</text>
+<text x="524" y="480">Compare</text><text x="524" y="516">Journal</text><text x="524" y="552">Outcome review</text>
+<text x="744" y="480">Circles and polls</text><text x="744" y="516">Earlier learning</text><text x="744" y="552">Outcome patterns</text>
+<text x="964" y="480">Check-ins</text><text x="964" y="516">Profile and data</text><text x="964" y="552">Export and delete</text></g>
+<rect x="60" y="651" width="1080" height="100" rx="18" fill="#e1eaf4"/>
+<text x="86" y="689" font-size="21" font-weight="600">Across every flow</text>
+<text x="86" y="724" font-size="19">Clear buttons · predictable Back · retained drafts · explicit save/retry status · no forced questions</text>
+<text x="60" y="806" font-size="17" fill="#536479">DESIGN DIAGRAM — not an installed-app screenshot. Runtime acceptance remains separate.</text>
+</g></svg>
